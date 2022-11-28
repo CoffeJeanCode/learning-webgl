@@ -1,2 +1,2 @@
-# learning-babylon-js
-Created with CodeSandbox
+# Learning Babylon JS
+
