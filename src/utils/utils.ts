@@ -8,7 +8,7 @@ const appendApp = (...nodes: Node[]) => {
 };
 
 const withInfo =
-  (title: string, description: string) => (setup: (evt: Event) => void) => {
+  (title: string, description: string) => (setup: () => void) => {
     const $title = document.createElement("h2");
     const $description = document.createElement("p");
 
