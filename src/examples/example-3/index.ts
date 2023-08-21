@@ -48,9 +48,6 @@ export const loop = () => {
   const color = new Color().setHSL(hue, 1, 0.5);
 
   material.color.copy(color);
-  cube.rotation.x += 0.01;
-  cube.rotation.y += 0.01;
-  cube.rotation.z += 0.01;
 
   const scale = Math.sin(alpha);
   cube.scale.set(scale, Math.tan(scale), scale);
