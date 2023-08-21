@@ -1,17 +1,13 @@
-import { loop, setup } from "./examples/example-3";
-import "./style.css";
-
+import { loop, setup } from "./examples/example-4";
 
 const update = () => {
   requestAnimationFrame(update);
   loop();
 };
 
-
 window.onload = () => {
-    setup();
-    setTimeout(() => {
-      update();
-    }, 100);
-  } 
-    
+  setup();
+  setTimeout(() => {
+    update();
+  }, 100);
+};
