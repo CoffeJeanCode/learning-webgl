@@ -1,11 +1,13 @@
 :root {
   --bg: linear-gradient(to top, #f2ee9d, #e1ea97, #cfe792, #bce38f, #a8df8e);
+  --text: rgb(30, 30, 30);
 }
 
 body {
   width: 100vw;
   height: 100vh;
   background: var(--bg);
+  color: var(--text);
   display: grid;
   place-content: center;
   overflow: hidden;

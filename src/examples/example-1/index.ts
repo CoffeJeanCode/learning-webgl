@@ -5,7 +5,7 @@ import {
   PerspectiveCamera,
   Scene,
   WebGLRenderer,
-} from "three";
+} from "../../lib/three";
 let scene: Scene,
   camera: PerspectiveCamera,
   renderer: WebGLRenderer,
@@ -25,8 +25,8 @@ export const setup = withInfo(
 
   renderer = new WebGLRenderer();
   renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
-  document.getElementById("app")?.appendChild(renderer.domElement);
-  log("HOLA MUNDO");
+  appendApp(renderer.domElement);
+
   const geometry = new BoxGeometry(1, 1, 1);
   const material = new MeshBasicMaterial({ color: 0x191d88 });
   cube = new Mesh(geometry, material);
