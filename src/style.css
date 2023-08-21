@@ -1,0 +1,13 @@
+:root {
+  --bg: linear-gradient(to top, #f2ee9d, #e1ea97, #cfe792, #bce38f, #a8df8e);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg);
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
