@@ -1,4 +1,4 @@
-import { loop, setup } from "./examples/example-1";
+import { loop, setup } from "./examples/example-2";
 import "./style.css";
 
 window.onload = setup;
